@@ -1,0 +1,111 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "open sans", sans-serif;
+    color: #3e497a;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+  }
+  
+  .about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    color: #21325e; 
+    height: 50px;
+  }
+  
+  .about .prompt {
+    width: 60%;
+    font-size: 20px;
+    color: darkorange;
+  }
+  .prompt svg {
+    font-size: 40px;
+    margin: 5px;
+    color: #21325e;
+  }
+  
+  .skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills h1 {
+    color: #3e497a;
+  }
+
+  .aboutme {
+    width: 100%;
+    height: calc(100vh - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: lightsalmon; 
+    
+  }
+  .aboutme h1{
+
+    font-size: 35px;
+    color: #21325e;
+    margin-right: auto; 
+    margin-bottom: 20px; 
+    padding-left: 30px;
+    
+
+  }
+  .aboutme h2{
+    color: #21325e;
+    font-size: 20px;
+    margin-right: auto; 
+    margin-bottom: 20px; 
+    padding-left: 30px;
+
+  }
+  .aboutme p{
+    margin: 0 30px;
+    color: white;
+    text-align: left;
+  }
+
+  .aboutme p b{
+    color: #21325e;
+   
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .aboutme {
+      text-align: center;
+    }
+  
+    .aboutme h2 {
+      font-size: 30px;
+    }
+  }
+
+  
